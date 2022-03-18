@@ -1,0 +1,110 @@
+footer {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+  background: #0d0d12;
+}
+
+footer > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer__about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: min-content;
+}
+
+.footer__about-us--text {
+  color: var(--text-primary);
+  margin-top: 1.8rem;
+}
+
+.footer__my-account,
+.footer__resources,
+.footer__company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.footer__my-account--title,
+.footer__resources--title,
+.footer__company--title,
+.footer__subscribe-us--title {
+  color: var(--text-primary);
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.footer__my-account--menu,
+.footer__resources--menu,
+.footer__company--menu {
+  padding: 0;
+}
+
+.footer__my-account--item,
+.footer__resources--item,
+.footer__company--item {
+  color: #adadb0;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.footer__subscribe-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__subscribe-us--case {
+  display: flex;
+  border: 0.2rem solid #2f2f39;
+  border-radius: 0.7rem;
+  margin-bottom: 2.2rem;
+}
+
+.footer__subscribe-us--input {
+  flex-grow: 1;
+  padding: 1rem;
+  background-color: transparent;
+  outline: none;
+  color: var(--text-primary);
+  border-radius: 0.7rem 0 0 0.7rem;
+  border: none;
+}
+
+.footer__subscribe-us--submit {
+  cursor: pointer;
+  background-color: #5c40f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.7rem;
+  border: none;
+  /* border-radius: inherit; */
+  border-radius: 0 0.7rem 0.7rem 0;
+}
+
+.footer__subscribe-us--menu {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.footer__subscribe-us--link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.6rem;
+  height: 3.6rem;
+  background-color: var(--bg-gray);
+  border-radius: 0.5rem;
+  margin-right: 1.1rem;
+}

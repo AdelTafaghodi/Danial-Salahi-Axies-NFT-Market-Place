@@ -1,0 +1,77 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/* END fonts */
+
+/* variables */
+:root {
+  --bg-primary: #14131f;
+  --bg-secondary: #353244;
+  --bg-gray: #343444;
+
+  --text-primary: #ffffff;
+  --text-secondary: #a400e3;
+
+  --blue: #5f00fa;
+  --purple: #4e3fee;
+}
+/* END variables */
+
+/* main styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  scroll-behavior: smooth !important;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg-primary);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  /* margin: 0 auto; */
+  margin-right: auto;
+  margin-left: auto;
+  /* max-width: 76.8rem; */
+  width: 90%;
+}
+
+/* NED main styles */
+
+/* scroll buttom */
+#scroll-btn {
+  display: none;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 1.5rem;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: var(--text-primary);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+/* #scroll-btn:hover {
+  background-color: ;
+} */
+/* END scroll buttom */
