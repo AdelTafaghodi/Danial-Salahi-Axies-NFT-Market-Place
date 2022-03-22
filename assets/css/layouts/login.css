@@ -55,6 +55,10 @@
   margin-bottom: 1.2rem;
 }
 
+.login-content__input:focus {
+  border-color: #7a65e9;
+}
+
 .login-content__input::placeholder {
   color: #787a80;
   opacity: 1; /* Firefox */
