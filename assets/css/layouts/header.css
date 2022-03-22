@@ -5,6 +5,7 @@
   padding-top: 1.4rem;
   padding-bottom: 0.8rem;
   border-bottom: 0.2rem solid #292933;
+  flex-wrap: wrap;
 }
 
 .nav__menu {
@@ -110,7 +111,7 @@
 .header__banner--buttons {
   display: flex;
   align-items: center;
-  margin-top: 3.4rem;
+  margin: 3rem 1rem 0 1rem;
 }
 
 .header__banner--button {
@@ -136,18 +137,28 @@
   margin-bottom: 8rem;
 }
 
+@media screen and (max-width: 960px) {
+  .header__properties {
+    flex-wrap: wrap;
+  }
+  .header__property {
+    margin-top: 4rem;
+  }
+}
+
 .header__property {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding: 0 3rem;
 }
 
 .header__property--icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 1.5rem;    */
+
   border-radius: 1.6rem;
   margin-bottom: 1.1rem;
   width: 5rem;
@@ -174,9 +185,11 @@
   font-size: 2.1rem;
   font-weight: bold;
   color: var(--text-primary);
+  text-align: center;
 }
 
 .header__property--text {
+  text-align: center;
   color: #adadb0;
   font-size: 1.3rem;
   text-align: center;

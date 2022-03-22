@@ -1,0 +1,142 @@
+@import "../style.css";
+
+.login {
+  display: flex;
+  background-color: #1d2233;
+  height: 100vh;
+}
+
+.login-image {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 8rem; */
+}
+
+.login-image__image {
+  width: 70%;
+}
+
+.login-content {
+  width: 35%;
+  background-color: #2e3346;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8rem;
+}
+
+.login-content__title {
+  color: #e3e8fb;
+  text-align: center;
+  font-size: 2.6rem;
+  margin: 0;
+}
+
+.login-content__form {
+  display: flex;
+  flex-direction: column;
+  margin: 2.3rem 0;
+}
+
+.login-content__label {
+  color: #e3e8fb;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-content__input {
+  background-color: transparent;
+  outline: none;
+  border: 0.1rem solid #6a6c72;
+  padding: 0.6rem 1rem;
+  border-radius: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.login-content__input::placeholder {
+  color: #787a80;
+  opacity: 1; /* Firefox */
+}
+
+.login-content__input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #787a80;
+}
+
+.login-content__input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #787a80;
+}
+
+.login-content__submit {
+  border: none;
+  background-color: #7a65e9;
+  color: whitesmoke;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+}
+.login-content__signup {
+  margin-bottom: 2.5rem;
+}
+.login-content__signup {
+  text-align: center;
+  color: #e3e8fb;
+  font-size: 1rem;
+  word-spacing: 0.3rem;
+}
+
+.login-content__signup > a {
+  color: #7a65e9;
+}
+
+.login-content__hr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-content__hr > span {
+  margin: 0 1rem;
+  color: #e3e8fb;
+  font-size: 1rem;
+}
+
+.login-content__hr div {
+  background-color: #404555;
+  height: 0.1rem;
+  width: 100%;
+}
+
+.login-content__social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.5rem;
+}
+
+.login-content__social-media--item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  padding: 0.6rem;
+  margin: 0 0.8rem;
+}
+
+.login-content__social-media > a:nth-child(1) {
+  background-color: #3d5b90;
+}
+
+.login-content__social-media > a:nth-child(2) {
+  background-color: #41aded;
+}
+
+.login-content__social-media > a:nth-child(3) {
+  background-color: #e84438;
+}
+
+.login-content__social-media > a:nth-child(4) {
+  background-color: #494546;
+}

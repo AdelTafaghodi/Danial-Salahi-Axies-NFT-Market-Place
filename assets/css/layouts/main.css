@@ -17,7 +17,7 @@ main {
   margin-bottom: 2rem;
 }
 
-.main__list{
+.main__list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,7 +111,6 @@ main {
   border-radius: 2.8rem;
   width: fit-content;
   padding: 2rem;
-  width: min-content;
 }
 
 .main__slider--card-title {
@@ -240,16 +239,15 @@ main {
 .main__popular-collection--content {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .main__popular-collection--card {
   background-color: var(--bg-gray);
   border-radius: 1.2rem;
-  padding: 1.8rem;
-  margin-right: 2.1rem;
-  margin-bottom: 2.1rem;
+  padding: 1.5rem;
+  margin: 1rem 0.5rem;
 }
 
 .main__popular-collection--card-images {
@@ -400,7 +398,6 @@ main {
   align-items: center;
   margin-bottom: 3rem;
   flex-wrap: wrap;
-
 }
 
 .main__list--filter-items {
@@ -408,6 +405,7 @@ main {
   align-items: center;
   justify-content: space-between;
   flex-grow: 0.2;
+  flex-wrap: wrap;
 }
 
 .main__list--filter-radio-input {
@@ -426,6 +424,7 @@ main {
   padding: 1rem 1.7rem;
   border-radius: 4.5rem;
   transition: all 0.2s;
+  margin: .5rem;
 }
 
 .main__list--filter-radio-label > img {
@@ -478,7 +477,7 @@ main {
   background-color: var(--bg-primary);
 }
 
-.main__list--content{
+.main__list--content {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -490,10 +489,10 @@ main {
   border-radius: 2.8rem;
   width: fit-content;
   padding: 2rem;
-  margin: 0 3.1rem 3.1rem 0;
+  margin: 0 1.7rem 2.1rem 0;
 }
 
-.main__list--item-image{
+.main__list--item-image {
   position: relative;
 }
 
@@ -519,6 +518,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: start;
+  flex-grow: 1;
 }
 
 .main__list--item-creator-btn {
@@ -551,7 +551,7 @@ main {
   margin-bottom: 0.6rem;
 }
 
-.main__list--item-creator-name > p {
+.main__list--item-creator-name > a {
   color: var(--text-primary);
   font-size: 1.4rem;
   font-weight: bold;
@@ -621,7 +621,7 @@ main {
   margin-left: 0.4rem;
 }
 
-.main__list--item-history{
+.main__list--item-history {
   display: flex;
   align-items: center;
   background-color: transparent;
@@ -632,11 +632,11 @@ main {
   cursor: pointer;
 }
 
-.main__list--item-history > img{
+.main__list--item-history > img {
   margin-right: 1rem;
 }
 
-.main__list--more{
+.main__list--more {
   border: 2px solid var(--text-primary);
   border-radius: 4.9rem;
   font-size: 1.4rem;
@@ -644,5 +644,4 @@ main {
   color: var(--text-primary);
   padding: 1.4rem 3.8rem;
   background-color: transparent;
-
 }

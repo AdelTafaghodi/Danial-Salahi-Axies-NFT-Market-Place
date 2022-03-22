@@ -20,7 +20,7 @@ scrollButton.addEventListener("click", () => {
 });
 
 const swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3.2,
+  slidesPerView: 4,
   spaceBetween: 10,
   pagination: {
     el: ".swiper-pagination",
@@ -31,7 +31,7 @@ const swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
   autoplay: {
-    delay: 2000,
+    delay: 2500,
   },
   loop: true,
   breakpoints: {
@@ -44,14 +44,26 @@ const swiper = new Swiper(".mySwiper", {
     567: {
       slidesPerView: 1.5,
     },
+    630: {
+      slidesPerView: 2.,
+    },
     867: {
       slidesPerView: 2.2,
     },
-    1000: {
-      slidesPerView: 3.2,
+    950: {
+      slidesPerView: 2.8,
+    },
+    1050: {
+      slidesPerView: 3,
+    },
+    1300: {
+      slidesPerView: 3.8,
     },
     1600: {
       slidesPerView: 4.5,
+    },
+    1800: {
+      slidesPerView: 5.2,
     },
   },
 });
